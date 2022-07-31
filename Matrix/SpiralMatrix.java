@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class SpiralMatrix {
     public static void main(String[] args) {
-        Scanner in = new Scanner(system.in);
+        Scanner in = new Scanner(System.in);
         int r=in.nextInt();
         int c=in.nextInt();
         int arr[][]=new int[r][c];
@@ -11,6 +11,7 @@ public class SpiralMatrix {
                 arr[i][j]=in.nextInt();
             }
         }
+        in.close();
         spiralPrint(r, c, arr);
 
     }
