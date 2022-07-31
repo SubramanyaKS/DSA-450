@@ -12,6 +12,7 @@ public class SearchinMatrix {
             }
         }
         int a=in.nextInt();
+        in.close();
         if(searchMatrix(arr,a)){
             System.out.println("Target is found in  Matrix");
         }
