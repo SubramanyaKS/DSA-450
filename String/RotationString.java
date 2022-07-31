@@ -4,6 +4,7 @@ public class RotationString {
         Scanner in = new Scanner(System.in);
         String str1=in.nextLine();
         String str2=in.nextLine();
+        in.close();
         if(findrotation(str1,str2)){
             System.out.println("Strings are rotations of each other");
         }
