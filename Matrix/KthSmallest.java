@@ -11,6 +11,7 @@ public class KthSmallest {
             }
         }
         int k= in.nextInt();
+        in.close();
         System.out.println(kthSmallest(arr,n,k));
     }
     public static int kthSmallest(int[][]mat,int n,int k)
