@@ -12,14 +12,14 @@ public class SearchinMatrix {
             }
         }
         int a=in.nextInt();
-        if(SearchinMatrix(arr,a)){
+        if(searchMatrix(arr,a)){
             System.out.println("Target is found in  Matrix");
         }
         else{
             System.out.println("Target is not found in  Matrix");
         }
     }
-    public boolean searchMatrix(int[][] matrix, int target) {
+    public static boolean searchMatrix(int[][] matrix, int target) {
         for(int i=0;i<matrix.length;i++){
             for(int j=0;j<matrix[0].length;j++){
                 if(matrix[i][j]==target){
