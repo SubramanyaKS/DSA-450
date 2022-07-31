@@ -5,9 +5,9 @@ public class SearchinMatrix {
         Scanner in = new Scanner(System.in);
         int r=in.nextInt();
         int c=in.nextInt();
-        int arr[][]=new int[m][n];
+        int arr[][]=new int[r][c];
         for(int i=0;i<r;i++){
-            for(int j=0;j<n;j++){
+            for(int j=0;j<c;j++){
                 arr[i][j]=in.nextInt();
             }
         }
